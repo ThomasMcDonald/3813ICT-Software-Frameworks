@@ -5,6 +5,7 @@ This project was created for the 3813ICT Software Frameworks course
 ## Weekly Learning Stuff
 
 | Week Commencing: | Activity Description: | Learning Outcomes |
+|---|---|---|
 | _Week 1_ | _Course overview and introduction Introduction to Node.js_ | _1, 5_ |
 | _Week 2_ | _Managing source code with version control systems_ | _2_ |
 | _Week 3_ | _Writing your own HTTP server Serving static content__Frontend JavaScript requests_ | _2, 3_ |
