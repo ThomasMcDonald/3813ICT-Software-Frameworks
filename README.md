@@ -1,4 +1,4 @@
-# Ticketing System Web Application
+# 3813ICT Software Frameworks 
 
 This project was created for the 3813ICT Software Frameworks course
 
