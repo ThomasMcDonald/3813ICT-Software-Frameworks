@@ -1,0 +1,7 @@
+<form>
+  <input type="text" name="messageText" [(ngModel)]="messageText"/>
+</form>
+<button (click)="sendMessage()">Send</button>
+<div class="messages" *ngFor="let msg of messages">
+  <p>{{ msg.from }} - {{ msg.text }}</p>
+</div>

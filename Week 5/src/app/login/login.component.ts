@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
   loginVerification(){
     console.log(this.email + " " + this.password)
     if(this.email == "thomas@gmail.com" && this.password == "123") {
-      localStorage.setItem("UserDetails", JSON.stringify(this.userDetails));
+      sessionStorage.setItem("UserDetails", JSON.stringify(this.userDetails));
       this.router.navigate(['/account']);
     }
     else {

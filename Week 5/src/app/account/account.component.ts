@@ -14,7 +14,7 @@ export class AccountComponent implements OnInit {
   }
 
   logout(){
-    localStorage.setItem("UserDetails", "");
+    sessionStorage.setItem("UserDetails", "");
     this.router.navigate(['/login']);
   }
 

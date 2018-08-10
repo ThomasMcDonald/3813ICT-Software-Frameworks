@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.userDetails = JSON.parse(localStorage.getItem("UserDetails"));
+    this.userDetails = JSON.parse(sessionStorage.getItem("UserDetails"));
     console.log(this.userDetails);
   }
 
