@@ -1,0 +1,8 @@
+
+ <p>{{ error }}
+  <form>
+  Email <input name="email" type="email" [(ngModel)]="email">
+  Password <input name="password" type="password" [(ngModel)]="password">
+  </form>
+  <button (click)="loginVerification()">Login</button>
+  <a routerLink="/account">Account</a>
